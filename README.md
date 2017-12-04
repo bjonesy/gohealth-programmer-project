@@ -11,12 +11,12 @@ These instructions will get you a copy of the project up and running on your loc
 * `npm install`
 * `yarn install`
 
-## Development
+### Development
 
 * `npm start`
 * `yarn start`
 
-## Deployment
+### Deployment
 
 * `npm run build`
 * `yarn run build`
@@ -77,7 +77,7 @@ checkHealthCarrier = () => {
 }
 ```
 
-# TODOS
+## TODOS
 
 * More tests
 * Connect to Insurance Eligibility API
