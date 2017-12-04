@@ -1,0 +1,18 @@
+.app-footer {
+	background-color: #0072bc;
+	color: #fff;
+	margin-top: 2rem;
+	padding: 1rem 0;
+
+	a {
+		color: #f67b00;
+	}
+
+	p {
+		margin: 0;
+
+		&.float-left {
+			margin-top: 5px;
+		}
+	}
+}

@@ -1,0 +1,107 @@
+.app-form {
+	padding: 2rem 0;
+
+	.container {
+		width: 900px;
+
+		@media screen and (max-width: 767px) {
+			width: auto;
+		}	
+	}
+
+	hr {
+		border-top: 1px solid #2c3e50;
+	}
+
+	form {
+
+		.jumbotron {
+			background-color: transparent;
+		}
+
+		.btn {
+			background-color: #f67b00;
+			border-color: #f67b00;
+			letter-spacing: 2px;
+			margin-top: 10px; 
+		}
+
+		.form-control {
+			border-color: #2c3e50;
+		}
+
+		label {
+			font-weight: 600;
+			font-size: 1.0rem;
+			text-transform: uppercase;
+		}
+
+		input::-webkit-input-placeholder,
+		textarea::-webkit-input-placeholder {
+			color: rgba(0, 0, 0, 0.4)
+		}
+
+		input:-moz-placeholder,
+		textarea:-moz-placeholder {
+			color: rgba(0, 0, 0, 0.4)
+		}
+
+		input::-moz-placeholder,
+		textarea::-moz-placeholder {
+			color: #E29C45;
+		}
+
+		input:-ms-input-placeholder,
+		textarea:-ms-input-placeholder {
+			color: #E29C45;
+		}
+
+		.hide {
+			display: none;
+		}
+
+		.more {
+			display: block;
+		}
+
+		#healthCarrier {
+			margin-bottom: 1rem;
+		}	
+
+		&.submitted {
+
+			.form-group,
+			.btn {
+				display: none;
+			}
+
+			.success {
+				height: auto;
+				opacity: 1;
+				text-align: center;
+				transition: opacity 0.4s ease-in-out;
+			}
+		}
+
+		.success {
+			height: 0;
+			opacity: 0;
+			overflow: hidden;
+			transition: opacity 0.4s ease-in-out;
+		}
+
+		.app-form__error {
+			color: red;
+			padding-top: 0.5rem;
+			
+			&.noerror {
+				display: none;
+			}
+			
+			&.error {
+				display: block;
+			}
+		}
+		
+	}
+}
