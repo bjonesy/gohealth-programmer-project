@@ -34,7 +34,7 @@ On form submission a patient's information will be saved and posted to the proxi
 
 ## Issues
 
-I was unable to connect to the Insurance Eligibility API.  Below you can find the example `curl` call that was given in the instructions.  There was mention of a possible SSL validation error when trying to connect.  There were no other specifics given about the SSL validation error.  When trying to connect using the Postman client and the terminal the connection returns a timeout error.  Even with with SSL bypassing enabled, the authtoken I was given & CORS headers in the requests.  I need more information and specifics to figure out what I am missing here.  
+I was unable to connect to the Insurance Eligibility API.  Below you can find the example `curl` call that was given in the instructions.  There was mention of a possible SSL validation error when trying to connect.  When trying to connect using the Postman client and the terminal the connection returns a timeout error.  Even with SSL bypassing enabled, the authtoken & CORS headers in the requests.  I need a little help here to figure out what I am missing.  
 
 ```
 // Times out
