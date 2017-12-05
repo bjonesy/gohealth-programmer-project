@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Description
 
-On form submission a patient's information will be saved and posted to the proxied server route `/form-submissions` and will enter the patient's information into a Mongo DB for storage.  The server route `/form-posts` is used to retrieve the form posts from the Mongo DB.  Since I was unable to complete connecting to the Eligibility API, I added a staffing display page for the form posts  that is located at the app's router route `/submissions`.  There is validation for the form fields and will not allow the user to submit the form without required information.   
+On form submission a patient's information will be saved and posted to the proxied server route `/form-submissions`.  The patient will be redirected and the information will enter into a Mongo DB for storage.  The server route `/form-posts` is used to retrieve the form posts from the Mongo DB.  Since I was unable to complete connecting to the Eligibility API, I added a staffing display page for the form posts.  This page is located at the app's router route `/submissions`.  There is validation for the form fields and will not allow the user to submit the form without required information.   
 
 ## Built With
 
